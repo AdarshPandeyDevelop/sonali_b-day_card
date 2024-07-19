@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+} 
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.container img{
+    width: 100vw;
+    height: 99.41vh;
+}
+
+.p1{
+    color: white;
+    font-size: 3vw;
+    margin-top: -40vw;
+    text-align: center;
+}
+
+.p1 span{
+    color: orangered;
+}
+
+.p2{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0 3vw;
+    width: 50%;
+    margin-left: 25vw;
+    margin-top: 2vw;
+} 
+
+.p2 span{
+    color: hotpink;
+}
+
+@media (max-width: 600px) {
+    .p1{
+        font-size: 8vw;
+        margin-top: -170vw;
+    }
+
+    .p2{
+        font-size: 4.5vw;
+    } 
+}
